@@ -52,7 +52,7 @@ def eval_loss(loader, device, net, critetion):
 
 #predictは最大値を採用していることに注意
 #datasetからはimageとlabelを取り出していることに注意
-def fit_image(net, optimizer, criterion, num_epochs, train_loader, device, history):
+def fit(net, optimizer, criterion, num_epochs, train_loader, device, history):
     
     base_epochs = len(history)
     
