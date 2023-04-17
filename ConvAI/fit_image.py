@@ -141,16 +141,3 @@ def fit_image(net, optimizer, criterion, num_epochs, train_loader, device, histo
         
         history = np.vstack((history, item))
     return history
-
-
-# In[11]:
-
-
-c
-
-
-# In[ ]:
-
-
-
-
